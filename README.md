@@ -1,8 +1,8 @@
 😂 Memento Meme
+---
 
 Aplicación web para subir, ver y dar like a memes (imágenes, GIFs y videos).
 Proyecto fullstack con Next.js + TailwindCSS en el frontend y Express + PostgreSQL en el backend.
----
 
 🚀 Tecnologías
 
@@ -11,23 +11,6 @@ Frontend: Next.js 14, React, TailwindCSS
 Backend: Node.js, Express, PostgreSQL
 
 Otros: Multer (subida de archivos), dotenv, cors
----
-
-memes-app/
-│
-├── backend/       → API con Express + PostgreSQL
-│   ├── src/       → Código fuente del backend
-│   │   └── index.js
-│   ├── package.json
-│
-├── frontend/      → Frontend con Next.js + TailwindCSS
-│   ├── app/       → Páginas y rutas del frontend
-│   ├── components/→ Componentes reutilizables
-│   ├── styles/    → Estilos globales (Tailwind)
-│   ├── package.json
-│
-└── README.md
----
 
 ⚙️ Instalación
 1. Clonar repositorio
@@ -61,7 +44,6 @@ DATABASE_URL=postgres://usuario:password@localhost:5432/memesdb
 Después, crea la base de datos:
 
 createdb memesdb
----
 
 ⚠️ Próximamente: script con tablas (users, memes, categories, likes).
 
@@ -77,7 +59,6 @@ npm run dev → inicia frontend en modo desarrollo
 npm run build → compila para producción
 
 npm run start → corre la build en producción
----
 
 📌 Roadmap (MVP)
 
@@ -88,7 +69,6 @@ npm run start → corre la build en producción
  Likes en los memes
 
  Categorías y filtrado
----
 
 Extras futuros:
 
@@ -99,6 +79,5 @@ Extras futuros:
  Ranking de memes más votados
 
  Deploy (Vercel + Render/Heroku + Supabase)
----
 
 ✍️ Autor: Alextsdev
